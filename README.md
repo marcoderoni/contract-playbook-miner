@@ -1,8 +1,6 @@
 # redline-miner
 
-> **No dependencies · Python 3.9+ · runs fully offline**
->
-> ![Python](https://img.shields.io/badge/python-3.9%2B-blue) ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen) ![Offline](https://img.shields.io/badge/runs-offline-success) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue) ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen) ![Offline](https://img.shields.io/badge/runs-offline-success) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 Mine your own past contract redlines and comments into a reusable **review playbook** —
 and, optionally, a Claude/LLM **skill** that applies it to new contracts.
