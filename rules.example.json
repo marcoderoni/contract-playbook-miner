@@ -1,0 +1,10 @@
+{
+  "_comment": "Type taxonomy for classify.py --sort. Keys are folder names; values are filename keywords. Adapt to your corpus and languages.",
+  "NDA": ["nda", "non-disclosure", "confidentiality undertaking"],
+  "MSA_Master": ["msa", "master service", "framework agreement"],
+  "Reseller_Partner": ["reseller", "partner", "referral"],
+  "DPA_Privacy": ["dpa", "data processing", "processor agreement"],
+  "SaaS_License": ["saas", "subscription", "licence", "license"],
+  "Engagement_Letter": ["engagement letter"],
+  "Amendment": ["addendum", "amendment"]
+}

@@ -1,0 +1,30 @@
+{
+  "_comment": "Copy to config.json and adapt. Nothing here is committed to git except this example.",
+  "internal_authors": ["Jane Doe", "John Smith"],
+  "THEMES": {
+    "liability": ["liability", "limitation of liability", "cap on", "indirect", "consequential"],
+    "indemnity": ["indemnif", "indemnit", "hold harmless"],
+    "ip_ownership": ["intellectual property", "ip right", "work product", "ownership", "proprietary"],
+    "licence": ["licence", "license", "right to use"],
+    "data_privacy": ["data protection", "data processing", "dpa", "personal data", "gdpr", "sub-processor"],
+    "confidentiality": ["confidential", "non-disclosure", "nda"],
+    "termination": ["termination", "terminate", "term and termination"],
+    "warranty": ["warrant", "fit for purpose", "conformity", "representation"],
+    "force_majeure": ["force majeure"],
+    "service_levels": ["service level", "sla", "kpi", "uptime", "availability"],
+    "fees_payment": ["fees", "payment", "price", "invoice", "indexation", "rate card"],
+    "insurance": ["insurance"],
+    "assignment": ["assignment", "novation"],
+    "governing_law": ["governing law", "jurisdiction", "arbitration", "dispute resolution"],
+    "subcontracting": ["subcontract", "sub-contractor"],
+    "acceptance_change": ["acceptance", "delivery", "change control", "change request"]
+  },
+  "STAGE": [
+    ["final", ["final", "consolidated", "executed", "signed"]],
+    ["review", ["review", "comments", "redline", "markup"]],
+    ["template", ["template", "model"]],
+    ["opening", ["draft", "concept"]]
+  ],
+  "NOISE_COMMENTS": ["updated to reflect", "as discussed", "for ease of read"],
+  "NOISE_EXACT": ["updated", "reinserted", "removed", "added", "confirmed", "open", "not applicable", "yes", "correct", "[name]"]
+}
