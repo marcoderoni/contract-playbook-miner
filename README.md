@@ -1,5 +1,7 @@
 # redline-miner
 
+> **No dependencies · Python 3.9+ · runs fully offline**
+
 Mine your own past contract redlines and comments into a reusable **review playbook** —
 and, optionally, a Claude/LLM **skill** that applies it to new contracts.
 
