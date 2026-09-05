@@ -241,8 +241,8 @@ def main():
         print(f"whitelist active: {len(only)} authors kept", file=sys.stderr)
     if a.anonymize:
         print("authors:", dict(Counter(v.rsplit("_",1)[0] for v in people.values())), file=sys.stderr)
-    print("tipo:", dict(Counter(r["type"] for r in all_recs)), file=sys.stderr)
-    print(f"\n{len(all_recs)} record da {kept_files} file (con contenuto team) -> {a.out}", file=sys.stderr)
+    print("type:", dict(Counter(r["type"] for r in all_recs)), file=sys.stderr)
+    print(f"\n{len(all_recs)} records from {kept_files} files (with team content) -> {a.out}", file=sys.stderr)
 
 
 if __name__ == "__main__":
