@@ -1,0 +1,36 @@
+# ============================================================
+#  FAIL-SAFE: never commit contract data or extracted content
+# ============================================================
+# Source documents
+*.docx
+*.doc
+*.pdf
+*.rtf
+*.odt
+*.xlsx
+*.xls
+*.pptx
+# Extracted / intermediate data
+*.json
+!config.example.json
+!examples/*.example.json
+# Generated playbooks with real content (keep only templates)
+playbooks/
+*_playbook.md
+*_themes.md
+*_skeleton.md
+# Author whitelists / internal lists
+internal_authors.txt
+whitelist*.txt
+# Work dirs
+Ordinati/
+Sorted/
+_sources/
+out/
+tests/fixtures/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
